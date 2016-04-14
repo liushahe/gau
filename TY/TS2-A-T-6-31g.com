@@ -1,5 +1,5 @@
 %chk=TS2-A-T-6-31g.chk
-# opt=(calcfc,ts) freq rb3lyp/6-31g(d,p)  iop(1/11=1)
+# opt=(calcfc,ts) freq rb3lyp/6-31g(d,p) iop(1/11=1)
 
 Title Card Required
 
