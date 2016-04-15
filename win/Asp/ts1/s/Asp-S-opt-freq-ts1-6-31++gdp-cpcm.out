@@ -1,0 +1,319 @@
+ Entering Link 1 = c:\G03W06\l1.exe PID=      1476.
+  
+ Copyright (c) 1988,1990,1992,1993,1995,1998,2003,2004,2007, Gaussian, Inc.
+                  All Rights Reserved.
+  
+ This is the Gaussian(R) 03 program.  It is based on the
+ the Gaussian(R) 98 system (copyright 1998, Gaussian, Inc.),
+ the Gaussian(R) 94 system (copyright 1995, Gaussian, Inc.),
+ the Gaussian 92(TM) system (copyright 1992, Gaussian, Inc.),
+ the Gaussian 90(TM) system (copyright 1990, Gaussian, Inc.),
+ the Gaussian 88(TM) system (copyright 1988, Gaussian, Inc.),
+ the Gaussian 86(TM) system (copyright 1986, Carnegie Mellon
+ University), and the Gaussian 82(TM) system (copyright 1983,
+ Carnegie Mellon University). Gaussian is a federally registered
+ trademark of Gaussian, Inc.
+  
+ This software contains proprietary and confidential information,
+ including trade secrets, belonging to Gaussian, Inc.
+  
+ This software is provided under written license and may be
+ used, copied, transmitted, or stored only in accord with that
+ written license.
+  
+ The following legend is applicable only to US Government
+ contracts under FAR:
+  
+                    RESTRICTED RIGHTS LEGEND
+  
+ Use, reproduction and disclosure by the US Government is
+ subject to restrictions as set forth in subparagraphs (a)
+ and (c) of the Commercial Computer Software - Restricted
+ Rights clause in FAR 52.227-19.
+  
+ Gaussian, Inc.
+ 340 Quinnipiac St., Bldg. 40, Wallingford CT 06492
+  
+  
+ ---------------------------------------------------------------
+ Warning -- This program may not be used in any manner that
+ competes with the business of Gaussian, Inc. or will provide
+ assistance to any competitor of Gaussian, Inc.  The licensee
+ of this program is prohibited from giving any competitor of
+ Gaussian, Inc. access to this program.  By using this program,
+ the user acknowledges that Gaussian, Inc. is engaged in the
+ business of creating and licensing software in the field of
+ computational chemistry and represents and warrants to the
+ licensee that it is not a competitor of Gaussian, Inc. and that
+ it will not use this program in any manner prohibited above.
+ ---------------------------------------------------------------
+  
+
+ Cite this work as:
+ Gaussian 03, Revision E.01,
+ M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, 
+ M. A. Robb, J. R. Cheeseman, J. A. Montgomery, Jr., T. Vreven, 
+ K. N. Kudin, J. C. Burant, J. M. Millam, S. S. Iyengar, J. Tomasi, 
+ V. Barone, B. Mennucci, M. Cossi, G. Scalmani, N. Rega, 
+ G. A. Petersson, H. Nakatsuji, M. Hada, M. Ehara, K. Toyota, 
+ R. Fukuda, J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, 
+ H. Nakai, M. Klene, X. Li, J. E. Knox, H. P. Hratchian, J. B. Cross, 
+ V. Bakken, C. Adamo, J. Jaramillo, R. Gomperts, R. E. Stratmann, 
+ O. Yazyev, A. J. Austin, R. Cammi, C. Pomelli, J. W. Ochterski, 
+ P. Y. Ayala, K. Morokuma, G. A. Voth, P. Salvador, J. J. Dannenberg, 
+ V. G. Zakrzewski, S. Dapprich, A. D. Daniels, M. C. Strain, 
+ O. Farkas, D. K. Malick, A. D. Rabuck, K. Raghavachari, 
+ J. B. Foresman, J. V. Ortiz, Q. Cui, A. G. Baboul, S. Clifford, 
+ J. Cioslowski, B. B. Stefanov, G. Liu, A. Liashenko, P. Piskorz, 
+ I. Komaromi, R. L. Martin, D. J. Fox, T. Keith, M. A. Al-Laham, 
+ C. Y. Peng, A. Nanayakkara, M. Challacombe, P. M. W. Gill, 
+ B. Johnson, W. Chen, M. W. Wong, C. Gonzalez, and J. A. Pople, 
+ Gaussian, Inc., Wallingford CT, 2004.
+ 
+ ******************************************
+ Gaussian 03:  IA32W-G03RevE.01 11-Sep-2007
+                06-Apr-2016 
+ ******************************************
+ %chk=E:\YangJ\Amiano\Asp\ts1\s\Asp-S-freq-ts1-6-31++gdp-cpcm.chk
+ ----------------------------------------------------------------------
+ # opt=(calcfc,ts) freq rb3lyp/6-311++g(d,p) scrf=(cpcm,solvent=water) 
+ iop(1/11=1)
+ ----------------------------------------------------------------------
+ 1/5=1,10=4,11=1,14=-1,18=20,26=3,38=1/1,3;
+ 2/9=110,17=6,18=5,40=1/2;
+ 3/5=4,6=6,7=1111,11=2,16=1,25=1,30=1,70=2101,71=2,72=1,74=-5/1,2,3;
+ 4/7=1/1;
+ 5/5=2,38=5,53=1/2;
+ 8/6=4,10=90,11=11/1;
+ 11/6=1,8=1,9=11,15=111,16=1/1,2,10;
+ 10/6=1,7=6/2;
+ 6/7=2,8=2,9=2,10=2,28=1/1;
+ 7/10=1,18=20,25=1/1,2,3,16;
+ 1/5=1,10=4,11=1,14=-1,18=20/3(3);
+ 2/9=110/2;
+ 6/7=2,8=2,9=2,10=2,19=2,28=1/1;
+ 99//99;
+ 2/9=110/2;
+ 3/5=4,6=6,7=1111,11=2,16=1,25=1,30=1,70=2105,71=1,72=1,74=-5/1,2,3;
+ 4/5=5,7=1,16=3/1;
+ 5/5=2,38=5,53=1/2;
+ 7//1,2,3,16;
+ 1/5=1,11=1,14=-1,18=20/3(-5);
+ 2/9=110/2;
+ 6/7=2,8=2,9=2,10=2,19=2,28=1/1;
+ 99/9=1/99;
+ ----------------------------
+ Asp-S-opt-freq-ts1-6-31++gdp
+ ----------------------------
+ Symbolic Z-matrix:
+ Charge =  0 Multiplicity = 1
+ N                    -1.50198   1.90858  -0.11827 
+ H                    -1.70401   1.98929   0.87395 
+ C                    -0.64641   0.74982  -0.39818 
+ H                    -0.54171   0.66159  -1.48048 
+ C                     0.72622   0.96152   0.2368 
+ C                    -1.30455  -0.52328   0.08657 
+ H                     1.10792   1.93997  -0.06796 
+ H                     0.65742   0.97429   1.32825 
+ C                     1.7273   -0.09292  -0.16881 
+ O                    -2.19851  -1.16519  -0.55303 
+ O                     1.53264  -0.96999  -0.97295 
+ H                    -2.38472   1.83902  -0.61364 
+ O                    -1.12649  -1.0524    1.23531 
+ H                    -2.03949  -1.7429    0.61116 
+ O                     2.90517   0.0677    0.47446 
+ H                     3.5007   -0.63317   0.16798 
+ 
+
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+ Berny optimization.
+ Initialization pass.
+                           ----------------------------
+                           !    Initial Parameters    !
+                           ! (Angstroms and Degrees)  !
+ --------------------------                            --------------------------
+ ! Name  Definition              Value          Derivative Info.                !
+ --------------------------------------------------------------------------------
+ ! R1    R(1,2)                  1.0158         calculate D2E/DX2 analytically  !
+ ! R2    R(1,3)                  1.4673         calculate D2E/DX2 analytically  !
+ ! R3    R(1,12)                 1.0146         calculate D2E/DX2 analytically  !
+ ! R4    R(3,4)                  1.0909         calculate D2E/DX2 analytically  !
+ ! R5    R(3,5)                  1.5271         calculate D2E/DX2 analytically  !
+ ! R6    R(3,6)                  1.5129         calculate D2E/DX2 analytically  !
+ ! R7    R(5,7)                  1.0936         calculate D2E/DX2 analytically  !
+ ! R8    R(5,8)                  1.0937         calculate D2E/DX2 analytically  !
+ ! R9    R(5,9)                  1.5095         calculate D2E/DX2 analytically  !
+ ! R10   R(6,10)                 1.2729         calculate D2E/DX2 analytically  !
+ ! R11   R(6,13)                 1.2772         calculate D2E/DX2 analytically  !
+ ! R12   R(6,14)                 1.5175         calculate D2E/DX2 analytically  !
+ ! R13   R(9,11)                 1.2057         calculate D2E/DX2 analytically  !
+ ! R14   R(9,15)                 1.3517         calculate D2E/DX2 analytically  !
+ ! R15   R(10,14)                1.3093         calculate D2E/DX2 analytically  !
+ ! R16   R(13,14)                1.3038         calculate D2E/DX2 analytically  !
+ ! R17   R(15,16)                0.9694         calculate D2E/DX2 analytically  !
+ ! A1    A(2,1,3)              111.4102         calculate D2E/DX2 analytically  !
+ ! A2    A(2,1,12)             108.0174         calculate D2E/DX2 analytically  !
+ ! A3    A(3,1,12)             111.101          calculate D2E/DX2 analytically  !
+ ! A4    A(1,3,4)              108.0034         calculate D2E/DX2 analytically  !
+ ! A5    A(1,3,5)              109.5903         calculate D2E/DX2 analytically  !
+ ! A6    A(1,3,6)              110.4723         calculate D2E/DX2 analytically  !
+ ! A7    A(4,3,5)              109.7228         calculate D2E/DX2 analytically  !
+ ! A8    A(4,3,6)              106.9516         calculate D2E/DX2 analytically  !
+ ! A9    A(5,3,6)              111.9896         calculate D2E/DX2 analytically  !
+ ! A10   A(3,5,7)              108.777          calculate D2E/DX2 analytically  !
+ ! A11   A(3,5,8)              111.1019         calculate D2E/DX2 analytically  !
+ ! A12   A(3,5,9)              112.801          calculate D2E/DX2 analytically  !
+ ! A13   A(7,5,8)              106.8351         calculate D2E/DX2 analytically  !
+ ! A14   A(7,5,9)              108.5801         calculate D2E/DX2 analytically  !
+ ! A15   A(8,5,9)              108.5439         calculate D2E/DX2 analytically  !
+ ! A16   A(3,6,10)             124.6715         calculate D2E/DX2 analytically  !
+ ! A17   A(3,6,13)             125.179          calculate D2E/DX2 analytically  !
+ ! A18   A(10,6,13)            109.9331         calculate D2E/DX2 analytically  !
+ ! A19   A(5,9,11)             125.4698         calculate D2E/DX2 analytically  !
+ ! A20   A(5,9,15)             111.5332         calculate D2E/DX2 analytically  !
+ ! A21   A(11,9,15)            122.9924         calculate D2E/DX2 analytically  !
+ ! A22   A(10,14,13)           106.0823         calculate D2E/DX2 analytically  !
+ ! A23   A(9,15,16)            107.3952         calculate D2E/DX2 analytically  !
+ ! A24   L(3,6,14,1,-1)        176.1669         calculate D2E/DX2 analytically  !
+ ! A25   L(3,6,14,1,-2)        180.4609         calculate D2E/DX2 analytically  !
+ ! D1    D(2,1,3,4)            174.7976         calculate D2E/DX2 analytically  !
+ ! D2    D(2,1,3,5)            -65.7102         calculate D2E/DX2 analytically  !
+ ! D3    D(2,1,3,6)             58.1456         calculate D2E/DX2 analytically  !
+ ! D4    D(12,1,3,4)            54.3055         calculate D2E/DX2 analytically  !
+ ! D5    D(12,1,3,5)           173.7977         calculate D2E/DX2 analytically  !
+ ! D6    D(12,1,3,6)           -62.3465         calculate D2E/DX2 analytically  !
+ ! D7    D(1,3,5,7)            -51.2912         calculate D2E/DX2 analytically  !
+ ! D8    D(1,3,5,8)             66.037          calculate D2E/DX2 analytically  !
+ ! D9    D(1,3,5,9)           -171.8213         calculate D2E/DX2 analytically  !
+ ! D10   D(4,3,5,7)             67.1395         calculate D2E/DX2 analytically  !
+ ! D11   D(4,3,5,8)           -175.5323         calculate D2E/DX2 analytically  !
+ ! D12   D(4,3,5,9)            -53.3906         calculate D2E/DX2 analytically  !
+ ! D13   D(6,3,5,7)           -174.2533         calculate D2E/DX2 analytically  !
+ ! D14   D(6,3,5,8)            -56.9252         calculate D2E/DX2 analytically  !
+ ! D15   D(6,3,5,9)             65.2166         calculate D2E/DX2 analytically  !
+ ! D16   D(1,3,6,10)            81.4634         calculate D2E/DX2 analytically  !
+ ! D17   D(1,3,6,13)           -92.6471         calculate D2E/DX2 analytically  !
+ ! D18   D(4,3,6,10)           -35.8392         calculate D2E/DX2 analytically  !
+ ! D19   D(4,3,6,13)           150.0503         calculate D2E/DX2 analytically  !
+ ! D20   D(5,3,6,10)          -156.0752         calculate D2E/DX2 analytically  !
+ ! D21   D(5,3,6,13)            29.8143         calculate D2E/DX2 analytically  !
+ ! D22   D(3,5,9,11)             4.8056         calculate D2E/DX2 analytically  !
+ ! D23   D(3,5,9,15)          -175.958          calculate D2E/DX2 analytically  !
+ ! D24   D(7,5,9,11)          -115.8371         calculate D2E/DX2 analytically  !
+ ! D25   D(7,5,9,15)            63.3993         calculate D2E/DX2 analytically  !
+ ! D26   D(8,5,9,11)           128.3753         calculate D2E/DX2 analytically  !
+ ! D27   D(8,5,9,15)           -52.3883         calculate D2E/DX2 analytically  !
+ ! D28   D(5,9,15,16)         -179.7104         calculate D2E/DX2 analytically  !
+ ! D29   D(11,9,15,16)          -0.4518         calculate D2E/DX2 analytically  !
+ --------------------------------------------------------------------------------
+ Trust Radius=3.00D-01 FncErr=1.00D-07 GrdErr=1.00D-06
+ Number of steps in this run=  81 maximum allowed number of steps= 100.
+ Search for a saddle point of order  1.
+ GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
+
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic     Atomic              Coordinates (Angstroms)
+ Number     Number      Type              X           Y           Z
+ ---------------------------------------------------------------------
+    1          7             0       -1.501979    1.908583   -0.118272
+    2          1             0       -1.704009    1.989288    0.873947
+    3          6             0       -0.646405    0.749816   -0.398180
+    4          1             0       -0.541713    0.661588   -1.480477
+    5          6             0        0.726215    0.961520    0.236802
+    6          6             0       -1.304554   -0.523281    0.086565
+    7          1             0        1.107922    1.939969   -0.067955
+    8          1             0        0.657416    0.974286    1.328250
+    9          6             0        1.727298   -0.092915   -0.168809
+   10          8             0       -2.198509   -1.165188   -0.553026
+   11          8             0        1.532635   -0.969994   -0.972946
+   12          1             0       -2.384717    1.839021   -0.613635
+   13          8             0       -1.126494   -1.052397    1.235310
+   14          1             0       -2.039488   -1.742898    0.611157
+   15          8             0        2.905170    0.067703    0.474458
+   16          1             0        3.500703   -0.633172    0.167983
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  N    0.000000
+     2  H    1.015789   0.000000
+     3  C    1.467343   2.067154   0.000000
+     4  H    2.081516   2.942283   1.090922   0.000000
+     5  C    2.447009   2.714452   1.527124   2.155608   0.000000
+     6  C    2.448448   2.663182   1.512916   2.107478   2.520164
+     7  H    2.610575   2.965901   2.145501   2.520074   1.093590
+     8  H    2.761942   2.610163   2.175062   3.069957   1.093689
+     9  C    3.799576   4.146900   2.529283   2.727299   1.509477
+    10  O    3.181546   3.497356   2.469867   2.634815   3.701449
+    11  O    4.269140   4.758595   2.834840   2.687483   2.417550
+    12  H    1.014618   1.642816   2.062648   2.352536   3.342327
+    13  O    3.277282   3.117043   2.479263   3.264232   2.912973
+    14  H    3.762220   3.756437   3.028707   3.521337   3.886275
+    15  O    4.812809   5.009652   3.720277   4.006928   2.367115
+    16  H    5.618655   5.870665   4.408140   4.553565   3.200869
+                    6          7          8          9         10
+     6  C    0.000000
+     7  H    3.451307   0.000000
+     8  H    2.762936   1.756385   0.000000
+     9  C    3.072874   2.127537   2.127146   0.000000
+    10  O    1.272901   4.561774   4.033963   4.087708   0.000000
+    11  O    3.061333   3.076894   3.137154   1.205735   3.759770
+    12  H    2.690261   3.536451   3.711234   4.564966   3.010584
+    13  O    1.277217   3.955423   2.701558   3.322090   2.088081
+    14  H    1.517495   4.891921   3.894946   4.185626   1.309335
+    15  O    4.268665   2.651357   2.569679   1.351656   5.350073
+    16  H    4.807203   3.521665   3.466183   1.884216   5.769221
+                   11         12         13         14         15
+    11  O    0.000000
+    12  H    4.833768   0.000000
+    13  O    3.457478   3.655410   0.000000
+    14  H    3.983318   3.801242   1.303809   0.000000
+    15  O    2.248476   5.683698   4.252979   5.267505   0.000000
+    16  H    2.299665   6.431239   4.767168   5.667593   0.969439
+                   16
+    16  H    0.000000
+ Stoichiometry    C4H7NO4
+ Framework group  C1[X(C4H7NO4)]
+ Deg. of freedom    42
+ Full point group                 C1
+ Largest Abelian subgroup         C1      NOp   1
+ Largest concise Abelian subgroup C1      NOp   1
+                         Standard orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic     Atomic              Coordinates (Angstroms)
+ Number     Number      Type              X           Y           Z
+ ---------------------------------------------------------------------
+    1          7             0       -1.501979    1.908583   -0.118272
+    2          1             0       -1.704009    1.989288    0.873947
+    3          6             0       -0.646405    0.749816   -0.398180
+    4          1             0       -0.541713    0.661588   -1.480477
+    5          6             0        0.726215    0.961520    0.236802
+    6          6             0       -1.304554   -0.523281    0.086565
+    7          1             0        1.107922    1.939969   -0.067955
+    8          1             0        0.657416    0.974286    1.328250
+    9          6             0        1.727298   -0.092915   -0.168809
+   10          8             0       -2.198509   -1.165188   -0.553026
+   11          8             0        1.532635   -0.969994   -0.972946
+   12          1             0       -2.384717    1.839021   -0.613635
+   13          8             0       -1.126494   -1.052397    1.235310
+   14          1             0       -2.039488   -1.742898    0.611157
+   15          8             0        2.905170    0.067703    0.474458
+   16          1             0        3.500703   -0.633172    0.167983
+ ---------------------------------------------------------------------
+ Rotational constants (GHZ):      2.5347472      1.1147983      0.9373568
+ Standard basis: 6-311++G(d,p) (5D, 7F)
+ There are   247 symmetry adapted basis functions of A   symmetry.
+ Integral buffers will be    262144 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned on.
+   247 basis functions,   387 primitive gaussians,   256 cartesian basis functions
+    35 alpha electrons       35 beta electrons
+       nuclear repulsion energy       471.2774943593 Hartrees.
+ NAtoms=   16 NActive=   16 NUniq=   16 SFac= 7.50D-01 NAtFMM=   80 NAOKFM=F Big=F
+ ------------------------------------------------------------------------------
+ United Atom Topological Model (UA0  parameters set).
+ UA0: Hydrogen   14 is unbound. Keep it explicit at all point on the
+ UA0: potential energy surface to get meaningful results.
+ Error termination via Lnk1e in c:\G03W06\l301.exe at Wed Apr 06 18:08:19 2016.
+ Job cpu time:  0 days  0 hours  0 minutes  1.0 seconds.
+ File lengths (MBytes):  RWF=     11 Int=      0 D2E=      0 Chk=      1 Scr=      1
