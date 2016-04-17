@@ -2,8 +2,8 @@
  Input=Asp-S-opt-freq-pcmc-w-6-311++g(d,p).com
  Output=Asp-S-opt-freq-pcmc-w-6-311++g(d,p).log
  Initial command:
- /usr/local/gau/g09/l1.exe "/tmp/Gau-11545.inp" -scrdir="/tmp/"
- Entering Link 1 = /usr/local/gau/g09/l1.exe PID=     11547.
+ /usr/local/gau/g09/l1.exe "/tmp/Gau-3213.inp" -scrdir="/tmp/"
+ Entering Link 1 = /usr/local/gau/g09/l1.exe PID=      3215.
   
  Copyright (c) 1988,1990,1992,1993,1995,1998,2003,2009,2013,
             Gaussian, Inc.  All Rights Reserved.
@@ -76,11 +76,11 @@
  
  ******************************************
  Gaussian 09:  ES64L-G09RevD.01 24-Apr-2013
-                14-Apr-2016 
+                17-Apr-2016 
  ******************************************
  %chk=Asp-S-opt-freq-pcmc-w-6-311++g(d,p).chk
  Error converting string "              p).chk" to an integer.
  Input conversion error in IntKMC.
- Error termination via Lnk1e in /usr/local/gau/g09/l1.exe at Thu Apr 14 21:42:34 2016.
+ Error termination via Lnk1e in /usr/local/gau/g09/l1.exe at Sun Apr 17 20:52:29 2016.
  Job cpu time:       0 days  0 hours  0 minutes  0.0 seconds.
  File lengths (MBytes):  RWF=      0 Int=      0 D2E=      0 Chk=      0 Scr=      0
