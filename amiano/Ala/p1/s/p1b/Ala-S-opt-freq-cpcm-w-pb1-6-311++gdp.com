@@ -1,5 +1,5 @@
 %chk=Ala-S-opt-freq-cpcm-w-pb1-6-311++gdp.chk
-#p opt freq rb3lyp/6-311++g(d,p) scrf=(cpcm,solvent=water) guess=tcheck
+#p opt freq rb3lyp/6-311++g(d,p) scrf=(cpcm,solvent=water) nosymm
 
 Ala-S-opt-freq-cpcm-w-pb1-6-311++gdp
 
