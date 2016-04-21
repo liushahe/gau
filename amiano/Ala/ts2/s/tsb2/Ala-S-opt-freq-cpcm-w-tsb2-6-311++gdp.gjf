@@ -1,5 +1,5 @@
 %chk=Ala-S-opt-freq-cpcm-w-tsb2-6-311++gdp.chk
-#p opt=(calcfc,ts) freq rb3lyp/6-311++g(d,p) scrf=(cpcm,solvent=water) iop(1/11=1)
+#p opt=(calcfc,ts) freq rb3lyp/6-311++g(d,p) scrf=(cpcm,solvent=water) iop(1/11=1) nosymm
 
 Ala-S-opt-freq-cpcm-w-tsb2-6-311++gdp
 
