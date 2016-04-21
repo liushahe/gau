@@ -1,3 +1,4 @@
+%mem=1gb
 %chk=Asp-S-opt-freq-cpcm-w-pa2-6-311++gdp.chk
 #p opt freq rb3lyp/6-311++g(d,p) scrf=(cpcm,solvent=water) nosymm
 
